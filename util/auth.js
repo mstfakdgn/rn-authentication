@@ -2,7 +2,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { useSelector } from 'react-redux';
 
-const API_KEY ='AIzaSyCHjPu9LxTrUFt5YXtudtOcd11ug3GeLvY';
+const API_KEY ='API_KEY';
 
 export async function createUser(email,password) {
 
